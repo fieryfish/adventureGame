@@ -21,7 +21,7 @@ class Room
     private String description;
     private HashMap exits;        // stores exits of this room.
     public Person character;
-    public Gear gear;
+    public Gear gear=null;
 
     /**
      * Create a room described "description". Initially, it has no exits.

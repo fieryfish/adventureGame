@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Write a description of class Person here.
@@ -11,7 +12,7 @@ public class Person
     private String description;
     public String name;
     public int aggressivity;
-
+    Gear myGears = null;
     /**
      * Constructor for objects of class Person
      */
@@ -21,6 +22,16 @@ public class Person
         this.description = description;
         this.aggressivity = aggressivity;
         System.out.println("Successfully initialize the character => "+description);
+    }
+
+    public void setGear(Gear flashlight)
+    {
+      myGears = flashlight;
+    }
+
+    public Gear getGear()
+    {
+      return myGears;
     }
 
 }

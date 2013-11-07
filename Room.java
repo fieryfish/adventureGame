@@ -20,6 +20,8 @@ class Room
 {
     private String description;
     private HashMap exits;        // stores exits of this room.
+    public Person character;
+    public Gear gear;
 
     /**
      * Create a room described "description". Initially, it has no exits.
@@ -30,6 +32,26 @@ class Room
     {
         this.description = description;
         exits = new HashMap();
+    }
+
+    public void setCharater(Person character)
+    {
+      this.character = character;
+    }
+
+    public void setGear(Gear gear)
+    {
+      this.gear = gear;
+    }
+
+    public void destroyGear(Gear gear)
+    {
+      this.gear = null;
+    }
+
+    public void destroyCharater(Person character)
+    {
+      this.character = null;
     }
 
     /**

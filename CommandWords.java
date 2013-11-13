@@ -1,12 +1,12 @@
-/*
- * This class is the main class of the "World of Zuul" application. 
- * "World of Zuul" is a very simple, text based adventure game.
+/**
+ * This class is the main class of the "Queen saving" application. 
+ * "Queen saving" is a very simple, text based adventure game.
  * 
  * This class holds an enumeration of all command words known to the game.
  * It is used to recognise commands as they are typed in.
  *
  * @author  Michael Kolling and David J. Barnes
- * @version 1.0 (February 2002)
+ * @version 1.0 (Nov 2013)
  */
 
 class CommandWords
@@ -26,7 +26,8 @@ class CommandWords
 
     /**
      * Check whether a given String is a valid command word. 
-     * Return true if it is, false if it isn't.
+     * @param input a string, check whether it is a valid command word.
+     * @return true if it is, false if it isn't.
      */
     public boolean isCommand(String aString)
     {
@@ -38,10 +39,10 @@ class CommandWords
         return false;
     }
 
-    /*
+    /**
      * Print all valid commands to System.out.
      */
-    public void showAll() 
+    public void showAll()
     {
         for(int i = 0; i < validCommands.length; i++) {
             System.out.print(validCommands[i] + "  ");

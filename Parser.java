@@ -2,9 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-/*
- * This class is the main class of the "World of Zuul" application. 
- * "World of Zuul" is a very simple, text based adventure game.  
+/**
+ * This class is the main class of the "Queen saving" Game`
  *
  * This parser reads user input and tries to interpret it as an "Adventure"
  * command. Every time it is called it reads a line from the terminal and
@@ -15,8 +14,8 @@ import java.util.StringTokenizer;
  * the known commands, and if the input is not one of the known commands, it
  * returns a command object that is marked as an unknown command.
  * 
- * @author  Michael Kolling and David J. Barnes
- * @version 1.0 (February 2002)
+ * @author  Michael Kolling and David J. Barnes and 121880
+ * @version 1.0 (Nov 2013)
  */
 
 class Parser 
@@ -24,11 +23,19 @@ class Parser
 
     private CommandWords commands;  // holds all valid command words
 
+    /**
+     * Constructor of the Parser
+     */
     public Parser() 
     {
         commands = new CommandWords();
     }
 
+    /**
+     *  Get the command of what player typed
+     *  resolve the command and create the object of Command
+     *  @return object of Command class
+     */
     public Command getCommand() 
     {
         String inputLine = "";   // will hold the full input line

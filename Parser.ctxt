@@ -3,6 +3,7 @@ comment0.params=
 comment0.target=Parser()
 comment1.params=
 comment1.target=Command\ getCommand()
+comment1.text=\n\ \ Get\ the\ command\ of\ what\ player\ typed\n\ \ resolve\ the\ command\ and\ create\ the\ object\ of\ Command\n\ \ @return\ object\ of\ Command\ class\n
 comment2.params=
 comment2.target=void\ showCommands()
 comment2.text=\n\ Print\ out\ a\ list\ of\ valid\ command\ words.\n

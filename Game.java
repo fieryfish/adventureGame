@@ -120,7 +120,6 @@ class Game
         rooms.put("dungeonL", dungeonL);
         // initialise room exits
         setRoomExits();
-
         currentRoom = (Room)rooms.get("outside");  // start game outside
         // set the charaters in rooms
         setCharaters();

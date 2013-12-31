@@ -5,7 +5,7 @@
  * This class can create gear in some room,
  * as well as set and get the attributions of the gears like name.
  *
- * @author  121880
+ * @author  121880 (Long Yu)
  * @version 1.0 (Nov 2013)
  */
 public class Gear

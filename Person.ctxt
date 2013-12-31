@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.params=name\ description\ aggressivity
 comment0.target=Person(java.lang.String,\ java.lang.String,\ int)
-comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Person\n
+comment0.text=\n\ Create\ a\ room\ named\ "name",\ described\ "description"\ and\ have\ aggressivity.\n\ @param\ all\ the\ parameters\ have\ to\ be\ supplied,\n\ first\ param\ is\ name,\ second\ is\ description\ and\ third\ one\ is\ aggressivity.\n\n
 comment1.params=flashlight
 comment1.target=void\ setGear(Gear)
+comment1.text=\n\ setter\ method\ of\ the\ Person\ object\n\ @param\ parameter\ is\ the\ gear\ of\ the\ characters\n
 comment2.params=
 comment2.target=Gear\ getGear()
+comment2.text=\n\ getter\ method\ of\ the\ Person\ object\n\ @return\ the\ gear\ object\ of\ the\ characters'\n
 numComments=3

@@ -1,6 +1,7 @@
-adventureGame
+AdventureGame
 =============
-This is a adventureGame based on zuul,
-you should use BuleJ software to play the game as it is based on that.
+This is a adventure Game based on zuul,
+
+Please using BuleJ software to play the game.
 
 Have fun plz ^-^

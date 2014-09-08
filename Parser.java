@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * the known commands, and if the input is not one of the known commands, it
  * returns a command object that is marked as an unknown command.
  * 
- * @author  Michael Kolling and David J. Barnes and 121880
+ * @author  Michael Kolling and David J. Barnes and 121880(Long Yu)
  * @version 1.0 (Nov 2013)
  */
 

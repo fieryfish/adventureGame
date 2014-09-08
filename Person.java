@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * We can create the characters of the game like knight, queen in this class.
  * Some rooms have the characters for player to deal with.
  *
- * @author  121880
+ * @author  121880(Long Yu)
  * @version 1.0 (Nov 2013)
  */
 public class Person
